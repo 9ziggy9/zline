@@ -1,0 +1,10 @@
+* ZLINE
+** Inspiration
+Can I implement a Redux-like FSM which can manage TUI applications? Could be helpful for early programmers learning JS that would like to make a simple terminal application.
+** Why JavaScript?
+My students learn JS as their first language. I am debating implementing this in TS.
+I might leverage some C for diffing, etc. Since this is a TUI framework, this shouldn't be a problem if I only use C standard libraries--does anyone not ship with GCC?
+
+* Changelog
+** July 07, 2022
+- Create repo, hello world, might use TS instead.
