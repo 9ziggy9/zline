@@ -1,3 +1,3 @@
 import {hello} from './sandbox/reference';
 
-console.log(hello("Hello, world"));
+console.log(hello("hello, world"));
