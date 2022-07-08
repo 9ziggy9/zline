@@ -1,5 +1,14 @@
+bold := $(shell tput bold)
+green := $(shell tput setaf 2)
+
 all: main.ts
-	npx tsc ./main.ts --outFile ./main.js
+	npm install
+	npx tsc
+	@printf '\n'
+	@printf '$(bold)COMPILATION SUCCESSFUL\n'
+	@printf '$(green)Running... '
+	node ./build/main.js
 clean:
 	rm -rf ./node_modules
-	rm -rf ./main.js ./build/*
+	rm -rf ./*.js
+	rm -rf ./main.js ./build
