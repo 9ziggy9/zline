@@ -1,17 +1,17 @@
 {
   "name": "zline",
   "version": "1.0.0",
-  "description": "Making TUI applications a little easier for node16.",
+  "description": "TUI framework",
   "main": "main.js",
   "scripts": {
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/9ziggy9/zline.git"
+    "url": "git+https://github.com/9ziggy9/zline.git"
   },
   "keywords": [
-    "tui"
+    "TUI"
   ],
   "author": "David Alan Rogers (aka ziggy)",
   "license": "MIT",
@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/9ziggy9/zline#readme",
   "devDependencies": {
+    "@tsconfig/node16": "^1.0.3"
+  },
+  "dependencies": {
     "typescript": "^4.7.4"
   }
 }
