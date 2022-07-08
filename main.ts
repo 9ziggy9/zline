@@ -1,6 +1,3 @@
-function hello(str: string) {
-  console.log(str);
-}
+import {hello} from './reference';
 
-const myStr = "Hello, world";
-hello(myStr);
+console.log(hello("Hello, world"));

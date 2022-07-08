@@ -2,5 +2,8 @@
   "extends": "@tsconfig/node16/tsconfig.json",
   "include": ["main.ts"],
   "exclude": ["node_modules"],
-  "strict": true
+  "compilerOptions": {
+    "strict": true,
+    "outDir": "./build"
+  },
 }
