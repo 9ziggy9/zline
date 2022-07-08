@@ -11,4 +11,4 @@ all: main.ts
 clean:
 	rm -rf ./node_modules
 	rm -rf ./*.js
-	rm -rf ./main.js ./build/*
+	rm -rf ./main.js ./build
