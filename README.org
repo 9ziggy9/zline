@@ -8,4 +8,4 @@ I might leverage some C for diffing, etc. Since this is a TUI framework, this sh
 * Changelog
 ** July 07, 2022
 - Create repo, hello world, might use TS instead.
-- I don't know TS, here goes nothing. Can I create make files?
+- I don't know TS, here goes nothing. Lol, is it insane to use a Makefile? I'm gonna anyways.
