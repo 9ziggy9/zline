@@ -2,5 +2,5 @@ function hello(str: string) {
   console.log(str);
 }
 
-const myStr = 5;
+const myStr = "Hello, world";
 hello(myStr);
